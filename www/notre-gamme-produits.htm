@@ -6,11 +6,14 @@
 <meta name="description" content="Rêve-Bienêtre, Soins du visage et soin du corps, bien-être, argan, rassoul, argile, sérum, huile de massage" />
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/unslider.js"></script>
+
 <script type="text/javascript" src="js/DD_roundies_0.0.2a-min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
+/*$(document).ready(function(){
     activeItem = $("#accordion li:last");
     $(activeItem).addClass('active');
     $("#accordion li").hover(function(){
@@ -18,6 +21,20 @@ $(document).ready(function(){
         $(this).animate({width: "674px"}, {duration:300, queue:false});
         activeItem = this;
     });
+});*/
+$(function() {
+	$('.banner').unslider({
+		speed: 1000,               //  The speed to animate each slide (in milliseconds)
+		delay: 5000,              //  The delay between slide animations (in milliseconds)
+		complete: function() {},  //  A function that gets called after every slide animation
+		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+		dots: true,               //  Display dot navigation
+		fluid: false              //  Support responsive design. May break non-responsive designs
+	});
+	$('.dot').click(function() {
+		$('.caption i').fadeOut().fadeIn( "slow", function() {
+		});	
+	});
 });
 </script>
 <script type="text/javascript">(function(d, s, id) {
@@ -47,7 +64,7 @@ $(document).ready(function(){
         	<a href="index.html">Accueil</a> &gt; <h2>Notre gamme de produits</h2>
         </div>
         <div id="content">
-            <ul id="accordion">
+           <!-- <ul id="accordion">
                 <li>
                     <img src="images/pane-soins-corps.png" alt="Soins du corps" />
                     <div class="slide_content">
@@ -60,7 +77,15 @@ $(document).ready(function(){
                         <a class="image" href="soins-visage.htm" title="Voir les produits soins du corps"><img alt="" src="images/visuel-soins-visage.jpg" /></a>
                     </div>
                 </li>
-            </ul> 
+            </ul>-->
+            
+            <div class="banner">
+                <ul>
+                    <li><a href="soins-corps.htm"><img src="images/visuel-soins-corps.jpg" alt="Soins du corps" /></a><span class="caption"><i>Soins du corps</i></span></li>
+                    <li><a href="soins-visage.htm"><img src="images/visuel-soins-visage.jpg" alt="Soins du visage" /></a><span class="caption"><i>Soins du visage</i></span></li>
+                    <li><a href="nouveautes.htm"><img src="images/visuel-produits-vente-cabine.jpg" alt="Produits vente et cabine" /></a><span class="caption"><i>Toutes nos nouveautés, produits vente et cabine</i></span></li>
+                </ul>
+            </div>
             <div class="right-col">
             	<!--<img src="images/saint-valentin.png" alt="Offre spécial Saint-Valentin" style="margin-bottom:10px;" />-->
                 <div class="nouveautes-home">
@@ -81,18 +106,20 @@ $(document).ready(function(){
                     <ul>
                     
                         <li><a href="soins-visage-produit-11.htm">Masque à l'argile verte - Fleur de lotus</a></li>
-                        <li><a href="soins-visage-produit-7.htm">Eau de rose</a></li>
                         
-                    	<li><a href="soins-visage-produit-4.htm">Créme anti-âge à la figue de barbarie</a></li>
-                        <li><a href="soins-visage-produit-9.htm">Masque au miel</a></li>
-                        <li><a href="nouveautes-produit-2.htm">Sérum à la figue de barbarie</a></li>
-                        <li><a href="nouveautes-produit-14.htm">Crème mains au beurre de karité</a></li>
-                        
-                  
-                        <!-- out
+                        <li><a href="soins-visage-produit-5.htm">Exfoliant sève de bambou</a></li>
                         <li><a href="soins-visage-produit-2.htm">Huile d'argan - 50 ml</a></li>
                         <li><a href="soins-visage-produit-6.htm">Lait démaquillant à l'argan</a></li>
-                        <li><a href="soins-visage-produit-5.htm">Exfoliant sève de bambou</a></li>
+                        <li><a href="nouveautes-produit-14.htm">Crème mains au beurre de karité</a></li>
+                        
+                        <li><a href="soins-visage-produit-9.htm">Masque au miel</a></li>
+                        <li><a href="nouveautes-produit-2.htm">Sérum à la figue de barbarie</a></li>
+                        
+                  
+                  
+                        <!-- out
+                        <li><a href="soins-visage-produit-7.htm">Eau de rose</a></li>
+                    	<li><a href="soins-visage-produit-4.htm">Créme anti-âge à la figue de barbarie</a></li>
 
                         <li><a href="soins-visage-produit-3.htm">Crème de jour à l'argan </a></li>
                         <li><a href="soins-visage-produit-8.htm">L'argile verte</a></li>
@@ -114,22 +141,24 @@ $(document).ready(function(){
 
                     	<li><a href="soins-corps-produit-4.htm">Baume karité argan et ambre</a></li>
                         <li><a href="soins-corps-produit-13.htm">Baume de karité au néroli</a></li>
-                     	<li><a href="soins-corps-produit-7.htm">Lait à l'argan</a></li>
+                    	<li><a href="soins-corps-produit-5.htm">Lait pour le corps au jasmin</a></li>
+                        <li><a href="soins-corps-produit-14.htm">Beurre de karité bio</a></li>
+                        
                         <li><a href="soins-corps-produit-9.htm">Sels de gommage au thé vert </a></li>
                         <li><a href="nouveautes-produit-1.htm">Coffret Découverte 4 huiles parfumées</a></li>
                     	<li><a href="soins-corps-produit-11.htm">Huile de massage au thé vert/gingembre</a></li>
                      	<li><a href="soins-corps-produit-2.htm">Huile de massage à la fleur d’oranger</a></li>
-                    	<li><a href="soins-corps-produit-1.htm">Huile d'argan bio</a></li>
+                    	<li><a href="soins-corps-produit-12.htm">Huile de massage au monoï</a></li>
                     	<!--
+                     	<li><a href="soins-corps-produit-7.htm">Lait à l'argan</a></li>
                      	<li><a href="soins-corps-produit-8.htm">Savon noir à l'eucalyptus naturel bio</a></li>
                     	<li><a href="soins-corps-produit-5.htm">Lait pour le corps au jasmin</a></li>
                     	<li><a href="soins-corps-produit-6.htm">Lait pour le corps à la fleur d’oranger</a></li>
                     	<li><a href="nouveautes-produit-1.htm">Coffret Découverte 4 huiles parfumées</a></li>
                      	<li><a href="soins-corps-produit-10.htm">Gant kessa et pierre ponce traditionnelle</a></li>
+                    	<li><a href="soins-corps-produit-1.htm">Huile d'argan bio</a></li>
                        
-                    	<li><a href="soins-corps-produit-12.htm">Huile de massage au monoï</a></li>
                      	<li><a href="soins-corps-produit-3.htm">Huile de massage au jasmin</a></li>
-                        <li><a href="soins-corps-produit-14.htm">Beurre de karité bio</a></li>
                      	<li><a href="nouveautes-produit-7.htm">Bougie de massage Ambre </a></li>
                     	<li><a href="soins-corps-produit-12.htm">Huile de massage au monoi</a></li>
                     	<li><a href="soins-corps-produit-13.htm">Baume de karité au néroli</a></li>

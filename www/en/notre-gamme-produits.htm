@@ -6,11 +6,13 @@
 <meta name="description" content="Rêve-Bienêtre, face care, body care, well-being, argan, rassoul, clay, serum, massage oil" />
 <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/scripts.js"></script>
+<script type="text/javascript" src="../js/unslider.js"></script>
 <script type="text/javascript" src="../js/DD_roundies_0.0.2a-min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
+/*$(document).ready(function(){
     activeItem = $("#accordion li:last");
     $(activeItem).addClass('active');
     $("#accordion li").hover(function(){
@@ -18,7 +20,22 @@ $(document).ready(function(){
         $(this).animate({width: "674px"}, {duration:300, queue:false});
         activeItem = this;
     });
+});*/
+$(function() {
+	$('.banner').unslider({
+		speed: 1000,               //  The speed to animate each slide (in milliseconds)
+		delay: 5000,              //  The delay between slide animations (in milliseconds)
+		complete: function() {},  //  A function that gets called after every slide animation
+		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+		dots: true,               //  Display dot navigation
+		fluid: false              //  Support responsive design. May break non-responsive designs
+	});
+	$('.dot').click(function() {
+		$('.caption i').fadeOut().fadeIn( "slow", function() {
+		});	
+	});
 });
+
 </script>
 <script type="text/javascript">(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -48,14 +65,21 @@ $(document).ready(function(){
             <h2>Our product range</h2>
         </div>
         <div id="content">
-            <ul id="accordion">
+            <!--<ul id="accordion">
                 <li> <img src="../images/pane-soins-corps-en.png" alt="Body care" />
                     <div class="slide_content"> <a class="image" href="soins-corps.htm" title="See all body care products"><img alt="" src="../images/visuel-soins-corps-en.jpg" /></a> </div>
                 </li>
                 <li> <img src="../images/pane-soins-visage-en.png" alt="Face care" />
                     <div class="slide_content"> <a class="image" href="soins-visage.htm" title="See all face care products"><img alt="" src="../images/visuel-soins-visage-en.jpg" /></a> </div>
                 </li>
-            </ul>
+            </ul>-->
+            <div class="banner">
+                <ul>
+                    <li><a href="soins-corps.htm"><img src="../images/visuel-soins-corps-en.jpg" alt="Body care" /></a><span class="caption"><i>Body care</i></span></li>
+                    <li><a href="soins-visage.htm"><img src="../images/visuel-soins-visage-en.jpg" alt="Face care" /></a><span class="caption"><i>Face care</i></span></li>
+                    <li><a href="nouveautes.htm"><img src="../images/visuel-produits-vente-cabine.jpg" alt="New products, for sale and professional salons" /></a><span class="caption"><i>New products, for sale and professional salons</i></span></li>
+                </ul>
+            </div>
             <div class="right-col">
             	<!--<img src="../images/saint-valentin_en.png" alt="Valentine's Day Special offer" style="margin-bottom:10px;" />-->
                 <div class="nouveautes-home nouveautes-home-en">
@@ -76,17 +100,19 @@ $(document).ready(function(){
                     <ul>
                     
                         <li><a href="soins-visage-produit-11.htm">Green clay mask - Lotus flower</a></li>
-                        <li><a href="soins-visage-produit-7.htm">Rose water</a></li>
                     
-                    	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
-                        <li><a href="soins-visage-produit-9.htm">Honey mask</a></li>
-                        <li><a href="nouveautes-produit-2.htm">Face serum with prickly pear</a></li>
-                        <li><a href="nouveautes-produit-14.htm">Hand cream - shea butter</a></li>
-                   
-                    	<!--
+                        <li><a href="soins-visage-produit-5.htm">Exfoliating Face Scrub with bamboo</a></li>
                         <li><a href="soins-visage-produit-2.htm">Argan oil - 50 ml</a></li>
                         <li><a href="soins-visage-produit-6.htm">Argan cleansing cream</a></li>
-                        <li><a href="soins-visage-produit-5.htm">Exfoliating Face Scrub with bamboo</a></li>
+                        <li><a href="nouveautes-produit-14.htm">Hand cream - shea butter</a></li>
+                    
+                        <li><a href="soins-visage-produit-9.htm">Honey mask</a></li>
+                        <li><a href="nouveautes-produit-2.htm">Face serum with prickly pear</a></li>
+                   
+                   
+                    	<!--
+                        <li><a href="soins-visage-produit-7.htm">Rose water</a></li>
+                    	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
                     	<li><a href="soins-visage-produit-3.htm">Argan Oil Day Cream</a></li>
                     	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
 						<li><a href="soins-visage-produit-8.htm">Exfoliating green clay</a></li>
@@ -101,23 +127,24 @@ $(document).ready(function(){
                     <ul>
                     	<li><a href="soins-corps-produit-4.htm">Argan and amber shea balm</a></li>
                         <li><a href="soins-corps-produit-13.htm">Shea balm with neroli </a></li>
-                      	<li><a href="soins-corps-produit-7.htm">Argan oil body milk</a></li>
+                    	<li><a href="soins-corps-produit-5.htm">Jasmine body milk</a></li>
+                         <li><a href="soins-corps-produit-14.htm">Organic Shea Butter</a></li>
+                       
                         <li><a href="soins-corps-produit-9.htm">Green tea exfoliating salt </a></li>
                         <li><a href="nouveautes-produit-1.htm">Discovery set with 4 fragrant oils</a></li>
                     	<li><a href="soins-corps-produit-11.htm">Green tea/ginger massage oil</a></li>
                     	<li><a href="soins-corps-produit-2.htm">Orange blossom massage oil</a></li>
-                        <li><a href="soins-corps-produit-1.htm">Argan oil bio</a></li>
+                    	<li><a href="soins-corps-produit-12.htm">Monoï massage oil</a></li>
                     	<!--
                     	<li><a href="soins-corps-produit-8.htm">Black Soap with Organic Eucalyptus</a></li>
-                    	<li><a href="soins-corps-produit-5.htm">Jasmine body milk</a></li>
                      	<li><a href="soins-corps-produit-6.htm">Orange blossom body milk</a></li>
                     	<li><a href="nouveautes-produit-1.htm">Discovery set with 4 fragrant oils</a></li>
                     	<li><a href="soins-corps-produit-10.htm">Kessa glove and traditional pumice</a></li>
-                       
-                    	<li><a href="soins-corps-produit-12.htm">Monoï massage oil</a></li>
+                       	<li><a href="soins-corps-produit-7.htm">Argan oil body milk</a></li>
+                      
+                        <li><a href="soins-corps-produit-1.htm">Argan oil bio</a></li>
                     	<li><a href="soins-corps-produit-3.htm">Jasmine massage oil</a></li>
                     	<li><a href="soins-corps-produit-13.htm">Shea balm with neroli</a></li>
-                        <li><a href="soins-corps-produit-14.htm">Organic Shea Butter</a></li>
                     	<li><a href="soins-corps-produit-4.htm">Argan and amber shea balm</a></li>
                      	<li><a href="nouveautes-produit-7.htm">Massage candle Ambre</a></li>
                         <li><a href="soins-corps-produit-9.htm">Néroli exfoliating salt</a></li>
