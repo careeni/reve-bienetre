@@ -57,7 +57,7 @@ ul { list-style-type:none; }
 .banner li { list-style: none; }
 .banner ul, .banner li { margin:0 !important; }
 .banner ul li { float: left; }
-.banner .caption { margin-top:-5px; display:inline-block; height:23px; width:703px; color:#fff; padding:3px 5px 0; font-size:1.3em; text-transform:uppercase; font-family:'Lustria', serif;
+.banner .caption { margin-top:-5px; display:inline-block; height:22px; width:703px; color:#fff; padding:5px 5px 0; font-size:1.3em; text-transform:uppercase; font-family:'Lustria', serif;
 background: #5e301d; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVlMzAxZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5YTVkNDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -74,15 +74,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e301d', end
 	.banner .dots {
 		position: absolute;
 		right: 10px;
-		top:0;
+		top:306px;
 	}
+	
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    /*Chrome CSS here*/
+
+	.banner .dots {
+        top:auto;
+        bottom:-10px;
+    }
+}	
 		.banner .dots li {
 			display: inline-block;
 			width: 8px;
 			height: 8px;
 			margin: 0 3px !important;
 			text-indent: -999em;
-			border: 2px solid #9A5D42;
+			border: 2px solid #fff;
 			border-radius: 6px;
 			cursor: pointer;
 			opacity: .4;
@@ -91,7 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e301d', end
 			transition: background .5s, opacity .5s;
 		}
 			.banner .dots li.active {
-				background: #9A5D42;
+				background: #fff;
 				opacity: 1;
 			}
 

@@ -6,7 +6,7 @@
 <meta name="description" content="Rêve-Bienêtre, face care, body care, well-being, argan, rassoul, clay, serum, massage oil" />
 <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/scripts.js"></script>
 <script type="text/javascript" src="../js/unslider.js"></script>
@@ -31,7 +31,7 @@ $(function() {
 		fluid: false              //  Support responsive design. May break non-responsive designs
 	});
 	$('.dot').click(function() {
-		$('.caption i').fadeOut().fadeIn( "slow", function() {
+		$('.caption i').hide().delay(1000).fadeIn('fast', function() {
 		});	
 	});
 });
