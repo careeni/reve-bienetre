@@ -82,7 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e301d', end
 			height: 8px;
 			margin: 0 3px !important;
 			text-indent: -999em;
-			border: 2px solid #5C2C23;
+			border: 2px solid #9A5D42;
 			border-radius: 6px;
 			cursor: pointer;
 			opacity: .4;
@@ -91,7 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e301d', end
 			transition: background .5s, opacity .5s;
 		}
 			.banner .dots li.active {
-				background: #5C2C23;
+				background: #9A5D42;
 				opacity: 1;
 			}
 
