@@ -7,6 +7,8 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script> 
 <script type="text/javascript" src="js/DD_roundies_0.0.2a-min.js"></script>
@@ -30,14 +32,30 @@
 	<div class="header"><h1><a href="notre-gamme-produits.htm"><img alt="Rêve-Bienêtre : la beauté au naturel" src="images/logo.jpg" /></a></h1></div>
 	<div class="main-content">
     	<ul id="navigation">
-        	<li class="first"><a href="notre-gamme-produits.htm">Produits</a></li>
+        	<li class="first"><a href="notre-gamme-produits.htm">Produits</a>
+            	<ul>
+        			<li><a href="soins-corps.htm">Soins du corps</a></li>
+        			<li><a href="soins-visage.htm">Soins du visage</a></li>
+        			<li><a href="nouveautes.htm">Nouveautés</a></li>
+                </ul>
+            </li>
         	<li><a href="presentation.htm">Présentation</a></li>
-        	<li><a href="proprietes.htm">Propriétés et bienfaits</a></li>
-        	<li><a href="contact.php">Contact</a></li>
+        	<li><span>Ingrédients</span>
+            	<ul>
+                	<li><a href="actifs-naturels.htm">Actifs naturels</a></li>
+                	<li><a href="proprietes.htm">Propriétés et bienfaits</a></li>
+                </ul>
+            
+            </li>
+       		<li><a href="partenaires.htm">Partenaires</a></li>
+        	<li><span>Actualités</span>
+            	<ul>
+                	<li><a href="evenement.htm">Evénement</a></li>
+                	<li><a href="presse.htm">Presse</a></li>
+                </ul>
+            </li>
          	<li><a href="commande.htm">Commande</a></li>
-        	<li><a href="partenaires.htm">Partenaires</a></li>
-        	<li class="last"><a href="presse.htm">Presse</a></li>
-        	<li class="last-event"><a href="evenement.htm">Evénement</a></li>
+        	<li class="last"><a href="contact.php">Contact</a></li>
         </ul>
         <div class="breadcrumbs">
         	<a href="index.html">Accueil</a> &gt; <h2>Contact</h2>
