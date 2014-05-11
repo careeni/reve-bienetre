@@ -231,7 +231,7 @@ label.error { color:#ff0000; padding-left:180px; display:block; font-style:itali
 #content ul { margin-left:10px; font-size:0.8em; color:#5C2C23; }
 
 .fiche-produit { margin:40px 20px 40px; overflow:hidden; }
-.fiche-produit img { width:200px; height:342px; border:1px solid #906a63; margin-right:10px; margin-bottom:5px; }
+.fiche-produit img { width:200px; height:342px; border:1px solid #906a63; margin-right:10px; margin-bottom:5px; display:block; }
 .retour { font-size:0.8em; margin-top:20px; margin-bottom:20px; display:block; text-decoration:none; background:url(../images/arrow-back.png) no-repeat 0 5px; padding-left:8px; }
 .fiche-produit .retour { margin-top:40px; }
 .fiche-produit .retour:hover { text-decoration:underline; }

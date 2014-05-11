@@ -36,6 +36,7 @@
         			<li><a href="soins-corps.htm">Body care</a></li>
         			<li><a href="soins-visage.htm">Face care</a></li>
         			<li><a href="nouveautes.htm">New products</a></li>
+        			<li><a href="cabine.htm">Professional salon format</a></li>
                 </ul>
             </li>
         	<li><a href="presentation.htm">About us</a></li>
