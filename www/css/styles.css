@@ -238,7 +238,7 @@ label.error { color:#ff0000; padding-left:180px; display:block; font-style:itali
 .fiche-produit .description { float:left; width:600px; }
 .fiche-produit p { font-size:0.9em; }
 .fiche-produit h3 { margin:0 0 20px 0; font-size:1.3em !important; }
-.bloc-produit { float:left; width:240px; font-size:0.7em; color:#999; text-align:center; }
+.bloc-produit { float:left; width:240px; font-size:0.7em; color:#999; text-align:left; }
 .bloc-evenement { /*padding-bottom:660px;*/ }
 .bloc-evenement img { border:2px solid #906a63; margin-bottom:40px; margin-right:20px; }
 .composants { margin-top:20px; }
