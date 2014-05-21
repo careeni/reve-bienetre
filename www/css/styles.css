@@ -143,9 +143,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e301d', end
 
 .tel { font-size:1.2em !important; background:url(../images/icone-tel.png) no-repeat scroll 0 7px transparent; padding-left:28px; font-weight:bold; min-height:30px; padding-top:4px; }
 
-.nouveaute { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; background:#77b37c; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.9em; }
-.best-seller { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; background:red; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.9em; }
+.nouveaute { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; background:#77b37c; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.8em; }
+.best-seller { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; background:red; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.8em; }
 .description .nouveaute, .description .best-seller  { margin:0; margin-left:10px; }
+#mycarousel .best-seller { clear:both; font-size:0.9em; }
+#mycarousel .nouveaute { margin-right:10px; font-size:0.9em; }
 
 ul#nav { padding-left:10px; padding-top:17px; text-align:left; }
 ul#nav li { margin-bottom:10px; font-size:0.8em; padding-left:26px; }
