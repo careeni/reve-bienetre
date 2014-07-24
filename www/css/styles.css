@@ -179,7 +179,9 @@ ul#nav li.retour :hover  { background:url(../images/retour-on.gif) no-repeat 26p
 .presse { height:auto; /*padding-bottom:50px;*/ }
 .couverture { margin-bottom:40px !important; display:block; }
 .presentation, .partenaires { height:auto; /*padding-bottom:20px; */}
-.presentation iframe { margin-bottom:20px; border:2px solid #906a63; }
+.presentation { width:520px; float:left; margin-top:0; }
+.right-col-presentation iframe { margin-bottom:10px; border:2px solid #906a63; }
+.right-col-presentation { width:400px; }
 .presentation h3{ font-size:1em !important; margin:20px 0 10px; }
 .partenaires h3 { font-size:1em !important; margin:10px 0 0; }
 .bloc-showroom { }
@@ -263,8 +265,8 @@ label.error { color:#ff0000; padding-left:180px; display:block; font-style:itali
 .fb_iframe_widget span, .fb_ltr { width:220px !important; }
 .addthis_toolbox { padding-top:5px; z-index:100; overflow:visible; }
 
-.adelphe { display:block; padding-top:10px; }
-.adelphe img { vertical-align:middle; margin-left:10px; margin-top:-8px; }
+.adelphe { display:block; padding:10px 20px; width:300px; text-align:center; }
+.adelphe img { vertical-align:middle; margin:0 auto; margin-bottom:10px; display:block; }
 
 .maintenance { background:#fff !important; width:972px !important; height:482px !important; border:6px solid #9BCA9F; }
 .maintenance .message { margin-top:150px; }
