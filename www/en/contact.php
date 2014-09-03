@@ -71,7 +71,7 @@
                     
                     <p>Tel : 01.48.60.53.07<br />Fax : 01.48.61.91.14</p>
                     <p>RCS : Bobigny B 497 720 755 00022<br />TVA FR 52 497 720 755</p>
-                    <p><strong>Our coach Mrs Marion Hogeback can go to your location for demos and show you how to use our products.</strong></p>
+                    <!--<p><strong>Our coach Mrs Marion Hogeback can go to your location for demos and show you how to use our products.</strong></p>-->
                     <!--<p><a href="tarifs_juin2011.pdf" title="Télécharger la liste des tarifs - PDF 33 Ko" target="_blank">Télécharger la liste des tarifs</a>.</p>-->
                     <p><strong>Need help, any question ? Your are a professional?<br />
 					Thank you for sending us a message, we will be pleased to answer very shortly.</strong></p>

@@ -72,7 +72,7 @@
                     
                     <p>Tel : 01.48.60.53.07<br />Fax : 01.48.61.91.14</p>
                     <p>RCS : Bobigny B 497 720 755 00022<br />TVA FR 52 497 720 755</p>
-                    <p><strong>Notre formatrice Mme Marion Hogeback peut se deplacer sur rendez-vous pour la demonstration et l'utilisation de tous nos produits.</strong></p>
+                    <!--<p><strong>Notre formatrice Mme Marion Hogeback peut se deplacer sur rendez-vous pour la demonstration et l'utilisation de tous nos produits.</strong></p>-->
                     <!--<p><a href="tarifs_juin2011.pdf" title="Télécharger la liste des tarifs - PDF 33 Ko" target="_blank">Télécharger la liste des tarifs</a>.</p>-->
                     <p><strong>Besoin d'un conseil, vous avez une question ? Vous êtes professionel?<br />
 					Nous vous remercions de nous envoyez votre message, nous nous ferons un plaisir de vous répondre rapidement</strong></p>
