@@ -64,11 +64,11 @@
         <div id="content">
         	<div class="main-text contact">
                 <div class="fl bloc-showroom">
-                    <p><strong>SHOWROOM</strong>
+                    <!--<p><strong>SHOWROOM</strong>
                     <br /><strong>Rêve-bienetre Cosmétiques Paris</strong><br />
                     22 bis Avenue Pasteur<br />
-                    93290 Tremblay en France</p>
-                    <p>Contact : <a href="mailto:azimport.export@orange.fr">contact@reve-bienetre.com</a></p>
+                    93290 Tremblay en France</p>-->
+                    <p><strong>Contact</strong> : <a href="mailto:azimport.export@orange.fr">contact@reve-bienetre.com</a></p>
                     
                     <p>Tel : 01.48.60.53.07<br />Fax : 01.48.61.91.14</p>
                     <p>RCS : Bobigny B 497 720 755 00022<br />TVA FR 52 497 720 755</p>
