@@ -143,8 +143,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e301d', end
 
 .tel { font-size:1.2em !important; background:url(../images/icone-tel.png) no-repeat scroll 0 7px transparent; padding-left:28px; font-weight:bold; min-height:30px; padding-top:4px; }
 
-.nouveaute { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; background:#77b37c; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.8em; }
-.best-seller { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; background:red; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.8em; }
+.nouveaute { /*-webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;*/ background:#77b37c; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.7em; }
+.best-seller { /*-webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;*/ background:red; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.7em; }
 .description .nouveaute, .description .best-seller  { margin:0; margin-left:10px; }
 #mycarousel .best-seller { clear:both; font-size:0.9em; }
 #mycarousel .nouveaute { margin-right:10px; font-size:0.9em; }
