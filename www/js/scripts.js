@@ -12,9 +12,12 @@
    var currentYear = (new Date).getFullYear();
    $("#getYear").text( (new Date).getFullYear() );
    
-   
-
-
+   $(".presse h3").click(function(){
+		$(this).toggleClass('active');
+		//$(this).addClass('active');
+		$(this).next(".toggle-content").slideToggle();
+		//$(this).next(".toggle-content").slideDown();
+	});
 });
  
  
