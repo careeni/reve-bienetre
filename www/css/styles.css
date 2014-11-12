@@ -70,8 +70,7 @@ ul { list-style-type:none; }
 .slide_content { float:left; width:0; overflow:visible; }
 .slide_content img { float:left; display:block; margin:0; width:664px; border:0; }
 
-.visuel-soins { overflow:hidden; display:none; }
-.visuel-soins img { margin-top:-100px; }
+.visuel-soins { overflow:hidden; }
 
 .banner { position: relative; overflow: auto; float:left; width:699px !important; border:1px solid #9a5d42; }
 .banner li { list-style: none; }
