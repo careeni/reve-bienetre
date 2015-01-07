@@ -2,15 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Rêve-Bienêtre : Notre gamme de produits</title>
+<title>Rêve-Bienêtre : Produits</title>
 <meta name="description" content="Rêve-Bienêtre, Soins du visage et soin du corps, bien-être, argan, rassoul, argile, sérum, huile de massage" />
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/unslider.js"></script>
 
@@ -64,10 +63,22 @@ $(function() {
     	<ul id="navigation">
         	<li class="first"><span>Produits</span>
             	<ul>
-        			<li><a href="soins-corps.htm">Soins du corps</a></li>
-        			<li><a href="soins-visage.htm">Soins du visage</a></li>
-        			<li><a href="nouveautes.htm">Nouveautés</a></li>
-        			<li><a href="cabine.htm">Format cabine</a></li>
+        			<li class="column"><a href="soins-corps.htm">Soins du corps</a>
+						<ul>
+							<li><a href="soins-corps-produits-gommages-raffermissant.htm">Gommages et raffermissant</a></li>
+							<li><a href="soins-corps-produits-huiles.htm">Huiles de corps et massage</a></li>
+							<li><a href="soins-corps-produits-baumes-beurres.htm">Baumes et beurres de karité</a></li>
+						</ul>
+					</li>
+        			<li class="column"><a href="soins-visage.htm">Soins du visage</a>
+						<ul>
+							<li><a href="soins-visage-nettoyants-lotions.htm">Nettoyants et lotions</a></li>
+							<li><a href="soins-visage-masques-exfoliants.htm">Masques et exfoliants visage</a></li>
+							<li><a href="soins-visage-cremes-anti-age.htm">Crèmes visage et anti-age</a></li>
+						</ul>
+					</li>
+        			<li class="column clear"><a href="nouveautes.htm">Nouveautés</a></li>
+        			<li class="clear"><a href="cabine.htm">Format cabine</a></li>
                 </ul>
             </li>
         	<li><a href="presentation.htm">Présentation</a></li>
@@ -82,12 +93,18 @@ $(function() {
         	<li><span>Actualités</span>
             	<ul>
                 	<li><a href="evenement.htm">Evénement</a></li>
+                	<li><a href="blogs.htm">Blogs</a></li>
                 	<li><a href="presse.htm">Presse</a></li>
                 </ul>
             </li>
          	<li><a href="commande.htm">Commande</a></li>
         	<li class="last"><a href="contact.php">Contact</a></li>
         </ul>
+		<ul class="social-links">
+			<li class="social-facebook"><a target="_blank" href="https://fr-fr.facebook.com/fr.ReveBienetre" alt="Facebook"><img src="images/icon-facebook.png" alt="" /></a></li>
+			<li class="social-twitter"><a target="_blank" href="https://twitter.com/yatimexport" alt="Twitter"><img src="images/icon-twitter.png" alt="" /></a></li>
+			<li class="social-instagram"><a target="_blank" href="http://instagram.com/revebienetre/" alt="Instagram"><img src="images/icon-instagram.png" alt="" /></a></li>
+		</ul>			
         <div class="breadcrumbs"><h2>Accueil</h2></div>
         <div id="content">
            <!-- <ul id="accordion">
@@ -107,7 +124,7 @@ $(function() {
             
             <div class="banner">
                 <ul>
-                    <li><img src="images/visuel-home-octobre-2014.jpg" alt="Soins visage et corps" /><span class="caption"><i>Soins visage et corps</i></span></li>
+                    <li><img src="images/visuel-home-janvier-2015.jpg" alt="Soins visage et corps" /><span class="caption"><i>Soins visage et corps</i></span></li>
                     <li><a href="soins-corps.htm"><img src="images/visuel-soins-corps.jpg" alt="Soins du corps" /></a><span class="caption"><i>Soins du corps</i></span></li>
                     <li><a href="soins-visage.htm"><img src="images/visuel-soins-visage.jpg" alt="Soins du visage" /></a><span class="caption"><i>Soins du visage</i></span></li>
                     <li><a href="nouveautes.htm"><img src="images/visuel-produits-vente-cabine.jpg" alt="Produits vente et cabine" /></a><span class="caption"><i>Toutes nos nouveautés, produits vente et cabine</i></span></li>
@@ -116,52 +133,30 @@ $(function() {
             <div class="right-col">
             	<!--<img src="images/saint-valentin.png" alt="Offre spécial Saint-Valentin" style="margin-bottom:10px;" />-->
                 <div class="nouveautes-home">
+					<h3>Nouveautés</h3>
                 	<a href="nouveautes.htm"><img src="images/visuel-nouveautes.jpg" alt="" /></a>
                 	<p>Rêve-Bienêtre vous propose régulièrement une gamme de nouveaux produits.</p>
                     <a href="nouveautes.htm" class="link">Voir toutes les nouveautés</a>
                 
                 </div>
                 <div class="catalogue-home">
+					<h3>Catalogue</h3>
 					 <a href="catalogue/CATALOGUE_REVE-BIEN-ETRE.pdf" target="_blank"><img src="images/catalogue.jpg" alt="Catalogue Rêve-Bienpêtre" /></a>             
                 	<p>Retrouvez toute la gamme de produits Rêve-Bienêtre dans notre catalogue en ligne.</p>
                     <a class="lien-catalogue" target="_blank" href="catalogue/CATALOGUE_REVE-BIEN-ETRE.pdf">Télécharger le catalogue</a>
                 </div>
             </div>    
             <div class="best-sellers">
+				<h3>Nos meilleures ventes</h3>
             	<div class="bloc">
-                    <h3>Soins du visage</h3>
-                    <ul>
-                        <li><a href="soins-visage-produit-8.htm">Argile verte</a></li>
-                        <li><a href="soins-visage-produit-7.htm">Eau de rose</a></li>
-                        <li><a href="soins-visage-produit-2.htm">Huile d'argan - 50 ml</a></li>
-                        <li><a href="soins-visage-produit-3.htm">Crème de jour à l'argan </a></li>
-                        <li><a href="soins-visage-produit-4.htm">Créme anti-âge</a></li>
-                        <li><a href="soins-visage-produit-5.htm">Exfoliant sève de bambou</a></li>
-                        <!-- out
-                        <li><a href="soins-visage-produit-6.htm">Lait démaquillant à l'argan</a></li>
-                        <li><a href="soins-visage-produit-9.htm">Masque au miel</a></li>
-                        <li><a href="soins-visage-produit-11.htm">Masque à l'argile verte - Fleur de lotus</a></li>
-                        <li><a href="nouveautes-produit-2.htm">Sérum à la figue de barbarie</a></li>
-                     	<li><a href="soins-visage-produit-4.htm">Créme anti-âge à la figue de barbarie</a></li>
-                        <li><a href="nouveautes-produit-14.htm">Crème mains au beurre de karité</a></li>
-                        <li><a href="soins-corps-produit-14.htm">Beurre de karité</a></li>
-                        <li><a href="soins-visage-produit-6.htm">Lait démaquillant à l'argan</a></li>
-                        <li><a href="soins-visage-produit-4.htm">Créme anti-âge à la figue de barbarie</a></li>
-                        -->
-                    </ul>
-                
-                </div>
-            	<div class="bloc">
-                
-                	<h3>Soins du corps</h3>
+                	<h4>Soins du corps</h4>
                 	<ul>
+                        <li><a href="soins-corps-produit-25.htm">Huile Divine sèche</a></li>
+                        <li><a href="soins-corps-produit-26.htm">Gommage argan karité</a></li>
                         <li><a href="soins-corps-produit-14.htm">Beurre de karité - 200ml</a></li>
                         <li><a href="soins-corps-produit-24.htm">Soin mains et pieds - 100ml</a></li>
                     	<li><a href="soins-corps-produit-1.htm">Huile d'argan</a></li>
                         <li><a href="soins-corps-produit-13.htm">Baume de karité parfumé au néroli - 200ml</a></li>
-                        <li><a href="soins-corps-produit-21.htm">Baume karité parfumé au monoï - 100gr</a></li>
-                    	<li><a href="soins-corps-produit-7.htm">Lait à l'argan</a></li>
-                     	<li><a href="nouveautes-produit-14.htm">Crème mains au beurre de karité</a></li>
                      	<li><a href="soins-corps-produit-3.htm">Huile de massage parfumée jasmin</a></li>
                     	<li><a href="soins-corps-produit-11.htm">Huile de massage parfumée thé vert/gingembre</a></li>
                         <li><a href="soins-corps-produit-15.htm">Sel de gommage parfumé au thé vert </a></li>
@@ -169,6 +164,9 @@ $(function() {
 						
 						
                     	<!--out
+                        <li><a href="soins-corps-produit-21.htm">Baume karité parfumé au monoï - 100gr</a></li>
+                    	<li><a href="soins-corps-produit-7.htm">Lait à l'argan</a></li>
+                     	<li><a href="soins-visage-produit-12.htm">Crème mains au beurre de karité</a></li>
                    
                     	<li><a href="soins-corps-produit-12.htm">Huile de massage parfumée au monoï</a></li>
                       	<li><a href="soins-corps-produit-2.htm">Huile de massage parfumée à la fleur d’oranger</a></li>
@@ -192,6 +190,28 @@ $(function() {
                         -->
                     </ul>
                 </div>
+            	<div class="bloc">
+                    <h4>Soins du visage</h4>
+                    <ul>
+                        <li><a href="soins-visage-produit-11.htm">Masque à l'argile verte - Fleur de lotus</a></li>
+                        <li><a href="soins-visage-produit-7.htm">Eau de rose</a></li>
+                        <li><a href="soins-visage-produit-1.htm">Huile d'argan</a></li>
+                        <li><a href="soins-visage-produit-3.htm">Crème de jour à l'argan </a></li>
+                        <li><a href="soins-visage-produit-4.htm">Créme anti-âge</a></li>
+                        <li><a href="soins-visage-produit-5.htm">Exfoliant sève de bambou</a></li>
+                        <!-- out
+                        <li><a href="soins-visage-produit-6.htm">Lait démaquillant à l'argan</a></li>
+                        <li><a href="soins-visage-produit-9.htm">Masque au miel</a></li>
+                        <li><a href="soins-visage-produit-11.htm">Masque à l'argile verte - Fleur de lotus</a></li>
+                        <li><a href="nouveautes-produit-2.htm">Sérum à la figue de barbarie</a></li>
+                     	<li><a href="soins-visage-produit-4.htm">Créme anti-âge à la figue de barbarie</a></li>
+                        <li><a href="soins-visage-produit-12.htm">Crème mains au beurre de karité</a></li>
+                        <li><a href="soins-corps-produit-14.htm">Beurre de karité</a></li>
+                        <li><a href="soins-visage-produit-6.htm">Lait démaquillant à l'argan</a></li>
+                        <li><a href="soins-visage-produit-4.htm">Créme anti-âge à la figue de barbarie</a></li>
+                        -->
+                    </ul>
+                </div>
              </div>
              <div class="brandalley"><a href="http://www.brandalley.fr/Marque/Categorie-55036-Marque-7739-reve_bienetre--Categorie-55036" target="_blank" title="Accéder au site Brandalley (lien externe)"><img src="images/brandalley.jpg" alt="Les produits Rêve-Bienêtre
 sont disponibles sur le site Brandalley" /></a></div>
@@ -201,17 +221,6 @@ sont disponibles sur le site Brandalley" /></a></div>
     <div class="main-content-bottom">
         <div id="social">
             <div class="fb-like" data-href="https://www.facebook.com/pages/R%C3%AAve-Bien%C3%AAtre/198605523573950" data-send="false" data-width="450" data-show-faces="false"></div>
-            <div class="addthis_toolbox addthis_default_style"> 
-                <a class="addthis_button_preferred_2"></a>
-                <a class="addthis_button_preferred_3"></a>
-                <a class="addthis_button_preferred_4"></a>
-                <a class="addthis_button_compact"></a>
-                <a class="addthis_counter addthis_bubble_style"></a>
-            </div>
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e62250e3286c0eb"></script> 
-            <!-- AddThis Button END --> 
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4da5fdd606c6d3c5"></script> 
-            <!-- AddThis Button END --> 
         </div>
         <div id="copyright">©<span id="getYear"></span> Rêve-Bienêtre</div>
      </div>

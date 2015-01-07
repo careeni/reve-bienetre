@@ -2,15 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Rêve-Bienêtre : Our product range</title>
+<title>Rêve-Bienêtre : Our products</title>
 <meta name="description" content="Rêve-Bienêtre, face care, body care, well-being, argan, rassoul, clay, serum, massage oil" />
 <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="../js/jquery.js"></script>
-<script type="text/javascript" src="../js/easing.js"></script>
-<script type="text/javascript" src="../js/jquery.ui.totop.js"></script>
 <script type="text/javascript" src="../js/scripts.js"></script>
 <script type="text/javascript" src="../js/unslider.js"></script>
 <script type="text/javascript" src="../js/DD_roundies_0.0.2a-min.js"></script>
@@ -63,10 +62,22 @@ $(function() {
     	<ul id="navigation">
         	<li class="first"><span>Our products</span>
             	<ul>
-        			<li><a href="soins-corps.htm">Body care</a></li>
-        			<li><a href="soins-visage.htm">Face care</a></li>
-        			<li><a href="nouveautes.htm">New products</a></li>
-        			<li><a href="cabine.htm">Professional salon format</a></li>
+        			<li class="column"><a href="soins-corps.htm">Body care</a>
+						<ul>
+							<li><a href="soins-corps-produits-gommages-raffermissant.htm">Body scrub and firming</a></li>
+							<li><a href="soins-corps-produits-huiles.htm">Body and massage oil</a></li>
+							<li><a href="soins-corps-produits-baumes-beurres.htm">Balm and shea butter</a></li>
+						</ul>
+					</li>
+        			<li class="column"><a href="soins-visage.htm">Face care</a>
+						<ul>
+							<li><a href="soins-visage-nettoyants-lotions.htm">Cleansers and lotions</a></li>
+							<li><a href="soins-visage-masques-exfoliants.htm">Masks and exfoliating scrub</a></li>
+							<li><a href="soins-visage-cremes-anti-age.htm">Cream and anti-ageing care</a></li>
+						</ul>
+					</li>
+        			<li class="column clear"><a href="nouveautes.htm">New products</a></li>
+        			<li class="clear"><a href="cabine.htm">Professional salon format</a></li>
                 </ul>
             </li>
         	<li><a href="presentation.htm">About us</a></li>
@@ -81,12 +92,18 @@ $(function() {
         	<li><span>News</span>
             	<ul>
                 	<li><a href="evenement.htm">Event</a></li>
+                	<li><a href="blogs.htm">Blogs</a></li>
                 	<li><a href="presse.htm">Press</a></li>
                 </ul>
             </li>
             <li><a href="commande.htm">Order</a></li>
             <li class="last"><a href="contact.php">Contact</a></li>
         </ul>
+		<ul class="social-links">
+			<li class="social-facebook"><a target="_blank" href="https://fr-fr.facebook.com/fr.ReveBienetre" alt="Facebook"><img src="../images/icon-facebook.png" alt="" /></a></li>
+			<li class="social-twitter"><a target="_blank" href="https://twitter.com/yatimexport" alt="Twitter"><img src="../images/icon-twitter.png" alt="" /></a></li>
+			<li class="social-instagram"><a target="_blank" href="http://instagram.com/revebienetre/" alt="Instagram"><img src="../images/icon-instagram.png" alt="" /></a></li>
+		</ul>			
         <div class="breadcrumbs"><h2>Home</h2></div>
         <div id="content">
             <!--<ul id="accordion">
@@ -99,7 +116,7 @@ $(function() {
             </ul>-->
             <div class="banner">
                 <ul>
-                    <li><img src="../images/visuel-home-octobre-2014-EN.jpg" alt="Face and body range" /><span class="caption"><i>Face and body range</i></span></li>
+                    <li><img src="../images/visuel-home-janvier-2015-EN.jpg" alt="Face and body range" /><span class="caption"><i>Face and body range</i></span></li>
                     <li><a href="soins-corps.htm"><img src="../images/visuel-soins-corps-en.jpg" alt="Body care" /></a><span class="caption"><i>Body care</i></span></li>
                     <li><a href="soins-visage.htm"><img src="../images/visuel-soins-visage-en.jpg" alt="Face care" /></a><span class="caption"><i>Face care</i></span></li>
                     <li><a href="nouveautes.htm"><img src="../images/visuel-produits-vente-cabine.jpg" alt="New products, for sale and professional salons" /></a><span class="caption"><i>New products, for sale and professional salons</i></span></li>
@@ -107,57 +124,42 @@ $(function() {
             </div>
             <div class="right-col">
             	<!--<img src="../images/saint-valentin_en.png" alt="Valentine's Day Special offer" style="margin-bottom:10px;" />-->
-                <div class="nouveautes-home nouveautes-home-en">
+                <div class="nouveautes-home">
+					<h3>New products</h3>
                 	<img src="../images/visuel-nouveautes.jpg" alt="" />
                 	<p>Rêve-Bienêtre regularly offers new product ranges.</p>
                     <a href="nouveautes.htm" class="link">See new products</a>
                 
                 </div>
                 <div class="catalogue-home">
+					<h3>Catalogue</h3>
 					 <a href="../catalogue/CATALOGUE_REVE-BIEN-ETRE.pdf" target="_blank"><img src="../images/catalogue.jpg" alt="Catalogue Rêve-Bienpêtre" /></a>             
                 	<p>Discover the entire range of Rêve-bientre products in our online catalogue.</p>
                     <a href="../catalogue/CATALOGUE_REVE-BIEN-ETRE.pdf" class="download">Download catalogue</a>
                 </div>
             </div>    
-            <div class="best-sellers best-sellers-en">
+            <div class="best-sellers">
+				<h3>Best sellers</h3>
             	<div class="bloc">
-                    <h3>Face care</h3>
+                    <h4>Body care</h4>
                     <ul>
-						<li><a href="soins-visage-produit-8.htm">Exfoliating green clay</a></li>
-                        <li><a href="soins-visage-produit-7.htm">Rose water</a></li>
-                        <li><a href="soins-visage-produit-2.htm">Argan oil - 50 ml</a></li>
-                    	<li><a href="soins-visage-produit-3.htm">Argan Oil Day Cream</a></li>
-                    	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
-                        <li><a href="soins-visage-produit-5.htm">Exfoliating Face Scrub with bamboo</a></li>
-                    	<!--
-                        <li><a href="soins-visage-produit-6.htm">Argan cleansing cream</a></li>
-                        <li><a href="soins-visage-produit-9.htm">Honey mask</a></li>
-                        <li><a href="soins-visage-produit-11.htm">Green clay mask - Lotus flower</a></li>
-                        <li><a href="nouveautes-produit-2.htm">Face serum with prickly pear</a></li>
-                    	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
-                        <li><a href="nouveautes-produit-14.htm">Hand cream - shea butter</a></li>
-                        <li><a href="soins-corps-produit-14.htm">Shea Butter</a></li>
-                        -->
-                    </ul>
-                </div>
-            	<div class="bloc">
-                    <h3>Body care</h3>
-                    <ul>
-                    
+                        <li><a href="soins-corps-produit-25.htm">Divine Dry oil</a></li>
+                        <li><a href="soins-corps-produit-26.htm">Argan &amp; Shea Exfoliating Scrub</a></li>
+                   
                         <li><a href="soins-corps-produit-14.htm">Shea Butter - 200ml</a></li>
                         <li><a href="soins-corps-produit-24.htm">Hand and feet care - 100ml</a></li>
                         <li><a href="soins-corps-produit-1.htm">Argan oil</a></li>
                         <li><a href="soins-corps-produit-13.htm">Neroli scented shea balm - 200ml</a></li>
-                        <li><a href="soins-corps-produit-21.htm">Monoi scented shea balm - 100gr</a></li>
-                    	<li><a href="soins-corps-produit-7.htm">Argan oil body milk</a></li>
-                     	<li><a href="nouveautes-produit-14.htm">Hand cream</a></li>
                     	<li><a href="soins-corps-produit-3.htm">Jasmine scented massage oil</a></li>
                      	<li><a href="soins-corps-produit-11.htm">Green tea/ginger scented massage oil</a></li>
                         <li><a href="soins-corps-produit-15.htm">Green tea scented exfoliating salt </a></li>
   
                         
                      	<!--out
-                 
+                        <li><a href="soins-corps-produit-21.htm">Monoi scented shea balm - 100gr</a></li>
+                    	<li><a href="soins-corps-produit-7.htm">Argan oil body milk</a></li>
+                     	<li><a href="soins-visage-produit-12.htm">Hand cream</a></li>
+                
                     	<li><a href="soins-corps-produit-12.htm">Monoï scented massage oil</a></li>
                     	<li><a href="soins-corps-produit-2.htm">Orange blossom scented massage oil</a></li>
                     	<li><a href="soins-corps-produit-8.htm">Eucalyptus scented black Soap</a></li>
@@ -180,6 +182,26 @@ $(function() {
                         -->
                     </ul>
                 </div>
+            	<div class="bloc">
+                    <h4>Face care</h4>
+                    <ul>
+						<li><a href="soins-visage-produit-11.htm">Green clay mask - Lotus flower</a></li>
+                        <li><a href="soins-visage-produit-7.htm">Rose water</a></li>
+                        <li><a href="soins-visage-produit-1.htm">Argan oil</a></li>
+                    	<li><a href="soins-visage-produit-3.htm">Argan Oil Day Cream</a></li>
+                    	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
+                        <li><a href="soins-visage-produit-5.htm">Exfoliating Face Scrub with bamboo</a></li>
+                    	<!--
+                        <li><a href="soins-visage-produit-6.htm">Argan cleansing cream</a></li>
+                        <li><a href="soins-visage-produit-9.htm">Honey mask</a></li>
+                        <li><a href="soins-visage-produit-11.htm">Green clay mask - Lotus flower</a></li>
+                        <li><a href="nouveautes-produit-2.htm">Face serum with prickly pear</a></li>
+                    	<li><a href="soins-visage-produit-4.htm">Anti-ageing cream</a></li>
+                        <li><a href="soins-visage-produit-12.htm">Hand cream - shea butter</a></li>
+                        <li><a href="soins-corps-produit-14.htm">Shea Butter</a></li>
+                        -->
+                    </ul>
+                </div>
             </div>
 			<div class="brandalley"><a href="http://www.brandalley.fr/Marque/Categorie-55036-Marque-7739-reve_bienetre--Categorie-55036" target="_blank" title="Go to Brandalley (lien externe)"><img src="../images/brandalley_en.jpg" alt="Rêve-Bienêtre products
 available on Brandalley" /></a></div>
@@ -189,11 +211,6 @@ available on Brandalley" /></a></div>
     <div class="main-content-bottom">
         <div id="social">
             <div class="fb-like" data-href="https://www.facebook.com/pages/R%C3%AAve-Bien%C3%AAtre/198605523573950" data-send="false" data-width="450" data-show-faces="false"></div>
-            <div class="addthis_toolbox addthis_default_style"> <a class="addthis_button_preferred_2"></a> <a class="addthis_button_preferred_3"></a> <a class="addthis_button_preferred_4"></a> <a class="addthis_button_compact"></a> <a class="addthis_counter addthis_bubble_style"></a> </div>
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e62250e3286c0eb"></script> 
-            <!-- AddThis Button END --> 
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4da5fdd606c6d3c5"></script> 
-            <!-- AddThis Button END --> 
         </div>
         <div id="copyright">©<span id="getYear"></span> Rêve-Bienêtre</div>
     </div>

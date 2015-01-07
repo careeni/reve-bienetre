@@ -6,12 +6,10 @@
 <meta name="description" content="Rêve-Bienêtre, face care, body care, well-being, argan, rassoul, clay, serum, massage oil" /> 
 <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox-1.3.4.css" />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="../js/easing.js"></script>
-<script type="text/javascript" src="../js/jquery.ui.totop.js"></script>
 <script type="text/javascript" src="../js/scripts.js"></script>
 <script type="text/javascript" src="../js/DD_roundies_0.0.2a-min.js"></script>
 <script type="text/javascript">
@@ -46,10 +44,22 @@
     	<ul id="navigation">
         	<li class="first"><span>Our products</span>
             	<ul>
-        			<li><a href="soins-corps.htm">Body care</a></li>
-        			<li><a href="soins-visage.htm">Face care</a></li>
-        			<li><a href="nouveautes.htm">New products</a></li>
-        			<li><a href="cabine.htm">Professional salon format</a></li>
+        			<li class="column"><a href="soins-corps.htm">Body care</a>
+						<ul>
+							<li><a href="soins-corps-produits-gommages-raffermissant.htm">Body scrub and firming</a></li>
+							<li><a href="soins-corps-produits-huiles.htm">Body and massage oil</a></li>
+							<li><a href="soins-corps-produits-baumes-beurres.htm">Balm and shea butter</a></li>
+						</ul>
+					</li>
+        			<li class="column"><a href="soins-visage.htm">Face care</a>
+						<ul>
+							<li><a href="soins-visage-nettoyants-lotions.htm">Cleansers and lotions</a></li>
+							<li><a href="soins-visage-masques-exfoliants.htm">Masks and exfoliating scrub</a></li>
+							<li><a href="soins-visage-cremes-anti-age.htm">Cream and anti-ageing care</a></li>
+						</ul>
+					</li>
+        			<li class="column clear"><a href="nouveautes.htm">New products</a></li>
+        			<li class="clear"><a href="cabine.htm">Professional salon format</a></li>
                 </ul>
             </li>
         	<li><a href="presentation.htm">About us</a></li>
@@ -61,15 +71,21 @@
             
             </li>
             <li><a href="partenaires.htm">Partners</a></li>
-        	<li><span>News</span>
+        	<li class="active"><span>News</span>
             	<ul>
                 	<li><a href="evenement.htm">Event</a></li>
+                	<li><a href="blogs.htm">Blogs</a></li>
                 	<li><a href="presse.htm">Press</a></li>
                 </ul>
             </li>
             <li><a href="commande.htm">Order</a></li>
             <li class="last"><a href="contact.php">Contact</a></li>
         </ul>
+		<ul class="social-links">
+			<li class="social-facebook"><a target="_blank" href="https://fr-fr.facebook.com/fr.ReveBienetre" alt="Facebook"><img src="../images/icon-facebook.png" alt="" /></a></li>
+			<li class="social-twitter"><a target="_blank" href="https://twitter.com/yatimexport" alt="Twitter"><img src="../images/icon-twitter.png" alt="" /></a></li>
+			<li class="social-instagram"><a target="_blank" href="http://instagram.com/revebienetre/" alt="Instagram"><img src="../images/icon-instagram.png" alt="" /></a></li>
+		</ul>			
         <div class="breadcrumbs">
         	<a href="notre-gamme-produits.htm">Home</a> &gt; News &gt; <h2>Press</h2>
         </div>
@@ -91,17 +107,6 @@
                     <img src="../images/idealsante-small.png" alt="Idéale Santé" />
                     <h4>Idéale Santé - April 2012</h4>
                 </div>
-                <h3>Blogs</h3>
-                <div class="toggle-content" id="blog" style="display:none;">
-                    <img src="../images/logo-manucure-info.png" alt="Manucure info" />
-                    <h4 class="no-margin"><a href="http://forum.manucure.info/index.php?resources/cr%C3%A8me-des-mains-au-karit%C3%A9-r%C3%AAve-bien%C3%AAtre.5675/" target="_blank">Manucure.info</a> - Crème des Mains au Karité Rêve-Bienêtre - October 2014</h4>
-                    <h4 class="no-margin"><a href="http://forum.manucure.info/index.php?resources/huile-de-massage-pour-le-corps-jasmin-de-r%C3%AAve-bien%C3%AAtre.27990/" target="_blank">Manucure.info</a> - Huile de Massage pour le Corps - Jasmin de Rêve-Bienêtre - October 2014</h4>
-                    <h4><a href="http://forum.manucure.info/index.php?resources/baume-karit%C3%A9-au-n%C3%A9roli-de-r%C3%AAve-bien%C3%AAtre.55528/" target="_blank">Manucure.info</a> -  Baume karité au néroli de Rêve-Bienêtre - October 2014</h4>
-                    <img src="../images/logo-lesprit-bio.png" alt="L'esprit BIO" />
-                    <h4><a href="http://www.lespritbio.com/fr/blog/60_entretien-avec-zeina-yatim-gerante-et-fondatrice-de-la-marque-reve-bienetre-cosmetiques-paris.html" target="_blank">L'esprit BIO</a> - Baume karité au néroli de Rêve-Bienêtre - November 2014</h4>
-                    <img src="../images/logo-oh-sens.png" alt="Oh Sens" />
-                    <h4><a href="http://www.ohsens.fr/Blog/2014/10/31/reve-bien-etre/" target="_blank">ohsens</a> - November 2014</h4>
-                </div>
                 <h3>Online press</h3>
                  <div class="toggle-content" id="presse-en-ligne" style="display:none;">
                     <img src="../images/logo-guide-des-pros.png" alt="Le guide des pros" />
@@ -114,17 +119,6 @@
     <div class="main-content-bottom">
         <div id="social">
             <div class="fb-like" data-href="https://www.facebook.com/pages/R%C3%AAve-Bien%C3%AAtre/198605523573950" data-send="false" data-width="450" data-show-faces="false"></div>
-            <div class="addthis_toolbox addthis_default_style"> 
-                <a class="addthis_button_preferred_2"></a>
-                <a class="addthis_button_preferred_3"></a>
-                <a class="addthis_button_preferred_4"></a>
-                <a class="addthis_button_compact"></a>
-                <a class="addthis_counter addthis_bubble_style"></a>
-            </div>
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e62250e3286c0eb"></script> 
-            <!-- AddThis Button END --> 
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4da5fdd606c6d3c5"></script> 
-            <!-- AddThis Button END --> 
         </div>
         <div id="copyright">©<span id="getYear"></span> Rêve-Bienêtre</div>
      </div>
