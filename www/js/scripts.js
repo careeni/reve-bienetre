@@ -19,6 +19,17 @@
 		//$(this).next(".toggle-content").slideDown();
 	});
 	
+	
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   $("#navigation span").click(function(){
+		$(this).next('ul').toggle();
+		$(this).toggleClass('active');
+	});
+}	
+	
+	
+	
+	
 	init_nbProduits();	
 	
 	
