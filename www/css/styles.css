@@ -192,7 +192,7 @@ ul#nav li.retour :hover  { background:url(../images/retour-on.gif) no-repeat 26p
 .presse { height:auto; /*padding-bottom:50px;*/ }
 .couverture { display:inline-block; }
 .presentation, .partenaires { height:auto; /*padding-bottom:20px; */}
-.presentation { width:520px; float:left; margin-top:0; }
+.presentation { /*width:520px; */float:left; margin-top:0; }
 .right-col-presentation iframe { margin-bottom:10px; border:1px solid #906a63; }
 .right-col-presentation { width:400px; }
 .presentation h3{ font-size:1em !important; margin:20px 0 10px; }
