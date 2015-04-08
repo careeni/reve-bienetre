@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Rêve-Bienêtre : Produits</title>
 <meta name="description" content="Rêve-Bienêtre, Soins du visage et soin du corps, bien-être, argan, rassoul, argile, sérum, huile de massage" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css' />
@@ -12,6 +13,7 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/unslider.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 
 <script type="text/javascript" src="js/DD_roundies_0.0.2a-min.js"></script>
 <script type="text/javascript">
@@ -107,29 +109,32 @@ $(function() {
 		</ul>			
         <div class="breadcrumbs"><h2>Accueil</h2></div>
         <div id="content">
-           <!-- <ul id="accordion">
-                <li>
-                    <img src="images/pane-soins-corps.png" alt="Soins du corps" />
-                    <div class="slide_content">
-                        <a class="image" href="soins-corps.htm" title="Voir les produits soins du corps"><img alt="" src="images/visuel-soins-corps.jpg" /></a>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/pane-soins-visage.png" alt="Soins du visage" />
-                    <div class="slide_content">
-                        <a class="image" href="soins-visage.htm" title="Voir les produits soins du corps"><img alt="" src="images/visuel-soins-visage.jpg" /></a>
-                    </div>
-                </li>
-            </ul>-->
-            
-            <div class="banner">
-                <ul>
-                    <!--<li><img src="images/visuel-home-janvier-2015.jpg" alt="Soins visage et corps" /><span class="caption"><i>Soins visage et corps</i></span></li>-->
-                    <li><a href="soins-corps.htm"><img src="images/visuel-soins-corps.jpg" alt="Soins du corps" /></a><span class="caption"><i>Soins du corps</i></span></li>
-                    <li><a href="soins-visage.htm"><img src="images/visuel-soins-visage.jpg" alt="Soins du visage" /></a><span class="caption"><i>Soins du visage</i></span></li>
-                    <li><a href="nouveautes.htm"><img src="images/visuel-produits-vente-cabine.jpg" alt="Produits vente et cabine" /></a><span class="caption"><i>Toutes nos nouveautés, produits vente et cabine</i></span></li>
-                </ul>
-            </div>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active"><a href="soins-corps.htm"><img src="images/visuel-soins-corps.jpg" alt="Soins du corps" /></a>
+						<div class="carousel-caption">Soins du corps</div>
+					</div>
+					<div class="item"><a href="soins-visage.htm"><img src="images/visuel-soins-visage.jpg" alt="Soins du visage" /></a>
+						<div class="carousel-caption">Soins du visage</div>
+					</div>
+					<div class="item"><a href="nouveautes.htm"><img src="images/visuel-produits-vente-cabine.jpg" alt="Produits vente et cabine" /></a>
+						<div class="carousel-caption">Toutes nos nouveautés, produits vente et cabine</div>
+					</div>
+					<!-- Controls --> 
+				</div>		
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+			</div>	
+			
+			
             <div class="right-col">
             	<!--<img src="images/saint-valentin.png" alt="Offre spécial Saint-Valentin" style="margin-bottom:10px;" />-->
                 <div class="nouveautes-home">
@@ -234,5 +239,6 @@ sont disponibles sur le site Brandalley" /></a></div>
         <div id="copyright">©<span id="getYear"></span> Rêve-Bienêtre</div>
      </div>
 </div>
+
 </body>
 </html>
