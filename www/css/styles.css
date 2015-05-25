@@ -308,7 +308,7 @@ label.error { color:#ff0000; padding-left:180px; display:block; font-style:itali
 
 .presse h3, .partenaires h3, .actifs h3 { background:url(../images/puce-arrow-big.png) no-repeat left center; padding-left:12px; font-size:0.9em !important; display:block; }
 .actifs h3 { display:inline-block; }
-.presse h3 { cursor:pointer; }
+.presse h3 { cursor:pointer; clear:both; }
 .presse h3.active { background:url(../images/puce-arrow-big-down.png) no-repeat left center;  }
 .presse h3 a:hover { text-decoration:none; }
 .presse h4 { margin:5px 0 30px !important; font-size:0.9em; }
@@ -316,6 +316,8 @@ label.error { color:#ff0000; padding-left:180px; display:block; font-style:itali
 .presse h4.no-margin { margin:5px 0 0 !important; }
 .presse img { margin:0; padding:4px; border:1px solid #e0e0e0; -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1); -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1); box-shadow: 1px 1px 5px rgba(0, 0, 0, .1); }
 .presse .toggle-content { padding-left:14px; }
+.presse .bloc { float:left; padding-right:20px; }
+.fancybox-skin { border-radius:0; -moz-border-radius:0; -webkit-border-radius:0; }
 
 #toTop { display:none; text-decoration:none; position:fixed; bottom:10px; right:10px; overflow:hidden; width:51px; height:51px; border:none; text-indent:100%; background:url(../images/ui.totop.png) no-repeat left top; }
 #toTopHover { background:url(../images/ui.totop.png) no-repeat left -51px; width:51px; height:51px; display:block; overflow:hidden; float:left; opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0); }
