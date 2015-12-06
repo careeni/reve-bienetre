@@ -84,8 +84,10 @@ ul { list-style-type:none; }
 .carousel .glyphicon { color:#ccc; }
 .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left { left:10%; top:40%; }
 .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right { right:10%; top:40%; }
-.carousel-caption { bottom:0; left:0; right:0; padding:5px 10px; text-align:left; background:#452820; font-size:1em !important; text-transform:uppercase; font-family:'Cinzel', serif;  }
+.carousel-caption { bottom:0; left:0; right:0; padding:5px 10px; text-align:left; background:#fff; opacity:0.7; font-size:1em !important; text-transform:uppercase; color:#452820; font-weight:600; }
 .carousel-indicators { right:10px; width:13%; left:inherit; bottom:-8px; }
+.carousel-indicators li { border-color:#452820; } 
+.carousel-indicators .active { background:#452820; border-color:#452820; }
 
 .banner { position: relative; overflow: auto; float:left; width:699px !important; border:1px solid #452820; margin-bottom:10px; }
 .banner li { list-style: none; }
