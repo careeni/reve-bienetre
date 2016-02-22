@@ -169,7 +169,8 @@ background: #452820; /* Old browsers */ }
 .best-seller { /*-webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;*/ background:red; display:inline-block; color:#fff; clear:both; padding:0 8px; margin-top:5px; font-size:0.7em; }
 .description .nouveaute, .description .best-seller  { margin:0; margin-left:10px; }
 #mycarousel .best-seller { clear:both; font-size:0.9em; }
-#mycarousel .nouveaute { margin-right:10px; font-size:0.9em; }
+#mycarousel .nouveaute { font-size:0.9em; }
+#mycarousel .nouveaute + .best-seller , #mycarousel .best-seller + .nouveaute { margin:0 0 0 10px; }
 
 ul#nav { padding-left:10px; padding-top:17px; text-align:left; }
 ul#nav li { margin-bottom:10px; font-size:0.8em; padding-left:26px; }
