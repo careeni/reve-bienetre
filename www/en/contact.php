@@ -71,16 +71,14 @@
                 </ul>
             
             </li>
-            <li><a href="partenaires.htm">Partners</a></li>
+            <li><a href="partenaires.htm">Outlets</a></li>
         	<li><span>News</span>
             	<ul>
                 	<li><a href="evenement.htm">Event</a></li>
-                	<li><a href="blogs.htm">Blogs</a></li>
                 	<li><a href="presse.htm">Press</a></li>
                 </ul>
             </li>
-            <li><a href="commande.htm">Order</a></li>
-            <li class="last active"><span>Contact</span></li>
+            <li><a href="blogs.htm">Blogs</a></li>            <li class="last active"><span>Contact</span></li>
         </ul>
 		<ul class="social-links">
 			<li class="social-facebook"><a target="_blank" href="https://fr-fr.facebook.com/fr.ReveBienetre" alt="Facebook"><img src="../images/icon-facebook.png" alt="" /></a></li>

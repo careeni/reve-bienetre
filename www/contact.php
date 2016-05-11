@@ -72,15 +72,14 @@
                 </ul>
             
             </li>
-       		<li><a href="partenaires.htm">Partenaires</a></li>
+       		<li><a href="partenaires.htm">Points de vente</a></li>
         	<li><span>Actualités</span>
             	<ul>
                 	<li><a href="evenement.htm">Evénement</a></li>
-                	<li><a href="blogs.htm">Blogs</a></li>
                 	<li><a href="presse.htm">Presse</a></li>
                 </ul>
             </li>
-         	<li><a href="commande.htm">Commande</a></li>
+            <li><a href="blogs.htm">Blogs</a></li>
         	<li class="last active"><span>Contact</span></li>
         </ul>
 		<ul class="social-links">
