@@ -147,9 +147,9 @@ background: #452820; /* Old browsers */ }
 .left-menu ul { margin:0 !important; padding:0; }
 .left-menu ul li { margin-bottom:0.8em; }
 .left-menu a { text-decoration:none; }
-.left-menu ul li a { background:url(../images/left-nav-puce-arrow.png) 0 center no-repeat; padding-left:10px; }
+.left-menu ul li { background:url(../images/left-nav-puce-arrow.png) 0 6px no-repeat; padding-left:10px; }
 .left-menu ul li.on a { font-weight:bold; }
-.left-menu .produits-sous-nav { margin-bottom:15px !important; }
+.left-menu .produits-sous-nav { margin-bottom:15px !important; width:190px; }
 
 .center-col { float:left; padding:0 10px; width:715px; border-left:1px solid #ececec; }
 .center-col h4 { margin:3px 10px 10px !important; display:block; float:left; }
